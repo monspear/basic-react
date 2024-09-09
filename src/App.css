@@ -25,8 +25,13 @@
   justify-content: flex-start;
   text-align: center;
 }
+.main-nav a{
+  text-decoration-line: none;
+}
 .main-nav p{
-  margin-left: calc(10px + 2%);
+  margin: calc(10px + 2%);
+  color: white;
+  width: calc(110%);
   font-size: 20px;
 }
 .main-footer h4{
