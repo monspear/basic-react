@@ -1,0 +1,51 @@
+.chatroom-wrap{
+    min-width: 500px;
+    width: 80%;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    height: 80%;
+    font-size: 20px;
+    padding: 20px;
+}
+.chatroom-wrap .chatroom-content .the-other-chat{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    left: 30px;
+}
+.chatroom-wrap .chatroom-content .my-chat{
+    position: relative;
+}
+.my-chat .my-chat-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.my-chat-wrap .chat-info{
+   display: flex;
+   justify-content: right;
+}
+.my-chat-wrap .my-chat-content{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    right: 30px;
+}
+.my-chat .time-zone{
+
+}
+.my-chat .name{
+    
+}
+.my-chat .my-chat-content{
+    
+}
+.my-chat .my-chat-img{
+   
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

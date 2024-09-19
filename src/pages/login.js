@@ -32,7 +32,7 @@ function Login(){
                 <h3>비밀번호</h3>
                 <input type="password" id="login-password" className="form-control" onChange={(event) => handleInputChange("password", event)} value={loginInput.password}>
                 </input>
-                <br></br>
+                <br></br><br></br>
                 <button className="btn btn-primary" type="submmit">로그인하기</button>
             </form>
         </div>
