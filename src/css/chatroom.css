@@ -9,6 +9,11 @@
     font-size: 20px;
     padding: 20px;
 }
+.chatroom-wrap .chatroom-content{
+    
+    height: 500px;
+    overflow: auto; /*중간에 스크롤바 만들기*/
+}
 .chatroom-wrap .chatroom-content .the-other-chat{
     position: relative;
     display: flex;
@@ -17,6 +22,9 @@
 }
 .chatroom-wrap .chatroom-content .my-chat{
     position: relative;
+    display: flex;
+    justify-content: right;
+    right : 30px;
 }
 .my-chat .my-chat-wrap{
     position: relative;
@@ -33,19 +41,29 @@
     justify-content: right;
     right: 30px;
 }
-.my-chat .time-zone{
-
-}
-.my-chat .name{
-    
-}
-.my-chat .my-chat-content{
-    
-}
-.my-chat .my-chat-img{
-   
-    
+.chat-img{
     width: 20px;
     height: 20px;
     border-radius: 50%;
 }
+
+.the-other-chat .the-other-chat-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.the-other-chat-wrap .chat-info{
+    display: flex;
+    justify-content: left;
+ }
+ .the-other-chat-wrap .the-other-chat-content{
+    position: relative;
+    display: flex;
+    justify-content: left;
+ }
+
+ .chat-write input{
+    width: 400px;
+    min-width: 400px;
+ }
+
