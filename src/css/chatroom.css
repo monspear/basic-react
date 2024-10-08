@@ -19,12 +19,14 @@
     display: flex;
     justify-content: left;
     left: 30px;
+    width: 95%;
 }
 .chatroom-wrap .chatroom-content .my-chat{
     position: relative;
     display: flex;
     justify-content: right;
-    right : 30px;
+    left : 30px;
+    width: 95%;
 }
 .my-chat .my-chat-wrap{
     position: relative;
@@ -39,7 +41,6 @@
     position: relative;
     display: flex;
     justify-content: right;
-    right: 30px;
 }
 .chat-img{
     width: 20px;
